@@ -1,7 +1,13 @@
 import React from "react";
+import Product from "./Product";
 
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <h1>Welcome to Our Store</h1>
+      <Product />
+    </div>
+  );
 };
 
 export default App;
